@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&display=swap');
+
+* {
+    font-size: 62.5% ; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#fe0000;
+    --sec-color:white;
+    --third-color: #d9d9d9;
+    --background-color: #171717;
+
+    --body-padding:24px;
+
+    --h-font:"Open Sans", sans-serif;
+
+    --fs: 1.5rem;
+    --h-fs: 4rem;
+
+    --sd-h-fs: 2.4rem;
+
+}
+body {
+    width: 100%;
+    background: var(--background-color);
+    
+}
+
+.mobile-font-h{
+    letter-spacing: -3%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: var(--h-font);
+    font-size: var(--h-fs);
+}
+.mobile-font-sd-heading{
+    letter-spacing: -3%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--sec-color);
+    font-family: var(--h-font);
+    font-size: var(--sd-h-fs);
+}
+.p_text {
+    row-gap: 16px;
+    display: grid;
+}
+p{
+    line-height: 170%;
+    letter-spacing: 2%;
+    color: var(--sec-color);
+    font-family: "Inter", sans-serif;
+    font-size: var(--fs);
+}
+
+@media screen {
+    
+}

@@ -1,0 +1,408 @@
+header {
+    width: 100vw;
+    overflow-x: hidden;
+}
+nav {
+    height: 15lvh;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+
+nav #logo {
+    height: 50px ;
+    aspect-ratio: 1;
+    background: red;
+}
+
+nav .hamburger {
+    height: 50px ;
+    aspect-ratio: 1;
+    background: red;
+}
+header .blendmode-block{
+    height: 20dvh;
+    width: 100%;
+    background: #030406 ;
+
+}
+header .hero_img {
+    background: url(/media/WhatsApp\ Image\ 2024-12-09\ at\ 03.57.17_741eba84\ 1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70dvh;
+    width: 100%;
+}
+
+/* -------------main -------- */
+
+/* ------------------intro section-------- */
+
+.about-us {
+    position: relative;
+    padding: 24px;
+    border: 1px red solid;
+    width: 100vw;
+}
+
+.about-us .mobile-about-us {
+    display: flex;
+    border: 1px green solid;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+.about-us .mobile-about-us .intro{
+    border: 1px solid pink;
+    display: grid;
+    grid-gap: 4vh;
+}
+.about-us .mobile-about-us .intro .part{
+    position: relative;
+}
+.about-us .mobile-about-us .intro .part h3{
+
+}
+.about-us .mobile-about-us .intro .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+.about-us .mobile-about-us .intro .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+.about-us .mobile-about-us .intro .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+.about-us .mobile-about-us .p_text {
+    row-gap: 16px;
+    display: grid;
+}
+
+
+.about-us .mobile-about-us img {
+    background: green;
+    width: 100%;
+    aspect-ratio: 1/1.5;
+}
+
+.about-us .mobile-about-us .ourStory{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+.about-us .mobile-about-us .ourStory .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+.about-us .mobile-about-us .ourStory .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+.about-us .mobile-about-us .ourStory .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+
+
+
+/* ------------achievements section --------- */
+#achievements {
+    position: relative;
+    padding: 24px;
+    border: 1px red solid;
+    width: 100vw;
+}
+
+#achievements .achievements {
+    display: flex;
+    border: 1px green solid;
+    flex-direction: column-reverse;
+    row-gap: 4vh;
+}
+#achievements .achievements .achievements-text{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+#achievements .achievements .achievements-text .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+#achievements  .achievements .achievements-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+#achievements  .achievements  .achievements-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+#achievements  .achievements .achievement_imagery{
+    background: green;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+
+
+
+/* - */
+
+
+#achievements .services {
+    display: flex;
+    border: 1px green solid;
+    flex-direction: column-reverse;
+    row-gap: 4vh;
+}
+#achievements .services .services-text{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+#achievements .services .services-text .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+#achievements  .services .services-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+#achievements  .services  .services-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+#achievements  .services .services_imagery{
+    background: green;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+
+/* ---------------clients from here onwards--------- */
+
+#clients {
+    position: relative;
+    padding: 24px;
+    border: 1px red solid;
+    width: 100vw;
+}
+
+#clients  .clients-text{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+#clients .clients-text .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+#clients  .clients-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+#clients .clients-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+
+/* bottom part of the clients section--- */
+
+#clients .wrapper {
+    display: grid;
+    row-gap: 5vh;
+}
+#clients .group {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    row-gap: 2vh;
+}
+#clients .group .client .crawfordfw {
+    width: 100%;
+    aspect-ratio: 1/0.7;
+    background: green;
+}
+#clients .group .client h6{
+    margin-top: -2px;
+}
+
+
+/* ---------------------the team from here onwards------ */
+
+#team {
+    position: relative;
+    padding: 24px;
+    border: 1px red solid;
+    width: 100vw;
+}
+
+#team .team-text{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+#team .team-text .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+#team .team-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+#team .team-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+
+/* bottom part of the teams section--- */
+#team .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vh 4vw
+}
+#team .wrapper .member {
+    display: grid;
+    justify-content: center;
+}
+#team .wrapper .member .imgMember{
+    height: 370px;
+    margin-inline: auto;
+    aspect-ratio: 1/1.2;
+    background: green;
+    position: relative;
+}
+#team .wrapper h5{
+    text-align: center;
+} 
+#team .wrapper h6 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+     text-align: center;
+     font-family: var(--h-font);
+    margin-top: -4px;
+}
+
+/* fooooooooooootere */
+
+footer {
+    position: relative;
+    padding: 24px;
+    border: 1px red solid;
+    width: 100vw;
+}
+
+footer .contact-text{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 4vh;
+}
+
+footer .contact-text .part .box {
+    background: yellow;
+    position: relative;
+    top: -8%;
+}
+footer .contact-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+footer .contact-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+
+/* fooooooooooootere -------- botttom ---------*/
+
+footer .container{
+    display: grid;
+    margin-top: 3vh;
+}
+
+
+footer .container .wrapper:first-child {
+margin-bottom: 4vh;
+}
+
+footer .container .wrapper span {
+    color: var(--primary-color);
+}
+footer .container .wrapper a {
+    text-decoration: none;
+}
+
+
+
+
+
+footer .map-section {
+    width: 100%;
+    margin-top: 3vh;
+}
+footer .map-section .map{
+    width: 100%;
+    aspect-ratio: 1/.8;
+    background: green;
+}
+footer .map-section span {
+    color: var(--third-color);
+    font-size: 1rem;
+    font-family: var(--h-font);
+}
