@@ -13,9 +13,11 @@
     --primary-color:#fe0000;
     --sec-color:white;
     --third-color: #d9d9d9;
-    --background-color: #171717;
+    --bg-color: #171717;
 
     --body-padding:24px;
+    --section-top-padding:72px;
+    --nav-padding:24px;
 
     --h-font:"Open Sans", sans-serif;
 
@@ -23,16 +25,21 @@
     --h-fs: 4rem;
 
     --sd-h-fs: 2.4rem;
+    --tr-h-fs:2.4rem
 
 }
 body {
     width: 100%;
-    background: var(--background-color);
-    
+    background: var(--bg-color);
+    overflow-x: hidden;
+    transition-behavior: smooth;
+}
+a {
+    text-decoration: none;
 }
 
 .mobile-font-h{
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--primary-color);
@@ -40,12 +47,20 @@ body {
     font-size: var(--h-fs);
 }
 .mobile-font-sd-heading{
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--sec-color);
     font-family: var(--h-font);
     font-size: var(--sd-h-fs);
+}
+.mobile-font-tr-heading{
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--sec-color);
+    font-family: var(--h-font);
+    font-size: var(--tr-h-fs);
 }
 .p_text {
     row-gap: 16px;
@@ -53,12 +68,184 @@ body {
 }
 p{
     line-height: 170%;
-    letter-spacing: 2%;
     color: var(--sec-color);
     font-family: "Inter", sans-serif;
     font-size: var(--fs);
 }
 
-@media screen {
+@media (min-width:700px) and (max-width:1100px){
+    :root {
     
+        --body-padding:48px;
+        --section-top-padding:80px;
+        --nav-padding:48px;
+    
+        --fs: 1.7rem;
+        --h-fs: 4rem;
+    
+        --sd-h-fs: 2.4rem;
+        
+       
+    
+    
+    }
+    header .blendmode-block{
+        height: 0;
+    }
+    header .hero_img {
+        height: 85%;
+    }
+    
+}
+
+@media (min-width:1101px) and (max-width:1440px){
+    :root {
+        --primary-color:#fe0000;
+        --sec-color:white;
+        --third-color: #d9d9d9;
+        --background-color: #171717;
+    
+        --body-padding:48px;
+        --section-top-padding:80px;
+        --nav-padding:48px;
+    
+    
+        --h-font:"Open Sans", sans-serif;
+    
+        --fs: 2rem;
+        --h-fs: 4.8rem;
+    
+        --sd-h-fs: 3.2rem;
+    
+    }
+    header .hero_img {
+        height: 85%;
+    }
+    header .blendmode-block{
+        height: 0;
+    }
+    .about-us-desktop {
+ 
+        display: block;
+    }
+    .about-us{        
+        display: none;
+    }
+    .mobile-about-us .about-us-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #achievements .achievements {
+        flex-direction: row;
+        column-gap: 4vw;
+    }
+    #achievements .services {
+        flex-direction: row-reverse;
+        column-gap: 4vw;
+    }
+    #clients .group {
+        grid-template-columns: 50% 50%;
+    }
+    #team .wrapper {
+        gap: 4vh 6vw;
+    }
+    footer .container {
+        display: flex;
+        margin-top: 3vh;
+        flex-direction: row;
+    }
+    footer .container .wrapper:first-child {
+        margin-bottom: 0;
+    }
+    footer .container .wrapper{
+        width: 50%;
+    }
+    footer .container .wrapper:last-child a {
+        width: 250px;
+    }
+    nav .nav-links {
+        display: flex ;
+    }
+    .drop_down_menu {
+        display: none;
+    }
+    nav .fa-bars {
+        display: none !important;
+    }
+}
+@media (min-width:1441px) {
+    :root {
+        --primary-color:#fe0000;
+        --sec-color:white;
+        --third-color: #d9d9d9;
+        --background-color: #171717;
+    
+        --body-padding:64px;
+        --section-top-padding:96px;
+        --nav-padding:64px;
+    
+        --h-font:"Open Sans", sans-serif;
+    
+        --fs: 2rem;
+        --h-fs: 6rem;
+    
+        --sd-h-fs: 4rem;
+    
+    }
+    header .hero_img {
+        height: 85%;
+    }
+    header .blendmode-block{
+        height: 0;
+    }
+    .about-us-desktop {
+ 
+        display: block;
+    }
+    .about-us{        
+        display: none;
+    }
+    #achievements .achievements {
+        flex-direction: row;
+        column-gap: 4vw;
+    }
+    #achievements .services {
+        flex-direction: row-reverse;
+        column-gap: 4vw;
+    }
+    .mobile-about-us .about-us-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #clients .group {
+        grid-template-columns: 50% 50%;
+    }
+    #team .wrapper {
+        gap: 4vh 6vw;
+    }
+    footer .container {
+        display: flex;
+        margin-top: 3vh;
+        flex-direction: row;
+    }
+    footer .container .wrapper:first-child {
+        margin-bottom: 0;
+    }
+    footer .container .wrapper{
+        width: 50%;
+    }
+    footer .container .wrapper:last-child a {
+        width: 250px;
+    }
+    nav .nav-links {
+        display: flex ;
+    }
+    .drop_down_menu {
+        display: none;
+    }
+    nav .fa-bars {
+        display: none !important; 
+    }
 }

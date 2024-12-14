@@ -5,4 +5,6 @@ first commit, i am done with the mobile version of the website, i just havent ad
 
 going to need to add icons and name the website should be done in the next 24hrs.
 
+i have complete the wesbite i just need to add some speling checks but just want to see if he likes it.
+
 

@@ -1,20 +1,21 @@
 header {
     width: 100vw;
     overflow-x: hidden;
+    height: 100lvh;
 }
 nav {
-    height: 15lvh;
-    background: green;
+    height: 15%;
+    background:#17171757 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 60px;
+    padding-inline: var(--nav-padding);
+    position: relative;
 }
 
 nav #logo {
-    height: 50px ;
-    aspect-ratio: 1;
-    background: red;
+    height: 80px ;
+    aspect-ratio: 1.05/1;
 }
 
 nav .hamburger {
@@ -23,17 +24,16 @@ nav .hamburger {
     background: red;
 }
 header .blendmode-block{
-    height: 20dvh;
+    height: 15%;
     width: 100%;
     background: #030406 ;
-
 }
 header .hero_img {
-    background: url(/media/WhatsApp\ Image\ 2024-12-09\ at\ 03.57.17_741eba84\ 1.png);
+    background: url(/media/heroImg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70dvh;
+    height: 70%;
     width: 100%;
 }
 
@@ -41,80 +41,92 @@ header .hero_img {
 
 /* ------------------intro section-------- */
 
-.about-us {
+
+.about-us{
     position: relative;
-    padding: 24px;
-    border: 1px red solid;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
 }
-
+.about-us-desktop {
+    position: relative;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
+    width: 100vw;
+    display: none;
+}
 .about-us .mobile-about-us {
     display: flex;
-    border: 1px green solid;
     flex-direction: column;
+    gap: 3vh;
+}
+
+.about-us-desktop .mobile-about-us {
+    display: grid;
+    grid-template-columns: 50% 50%;
     row-gap: 4vh;
 }
-.about-us .mobile-about-us .intro{
-    border: 1px solid pink;
+.mobile-about-us .about-us-info {
+}
+.mobile-about-us .intro{
     display: grid;
     grid-gap: 4vh;
 }
-.about-us .mobile-about-us .intro .part{
+.mobile-about-us .intro .part{
     position: relative;
 }
-.about-us .mobile-about-us .intro .part h3{
+.mobile-about-us .intro .part h3{
 
 }
-.about-us .mobile-about-us .intro .part .box {
-    background: yellow;
+.mobile-about-us .intro .part .box {
+    background: var(--sec-color);
     position: relative;
     top: -8%;
 }
-.about-us .mobile-about-us .intro .part .box .bee {
+.mobile-about-us .intro .part .box .bee {
     height: 11px;
     width: 110px;
     top: 0;
     position: absolute;
     background: var(--third-color);
 }
-.about-us .mobile-about-us .intro .part .box .stinger {
+.mobile-about-us .intro .part .box .stinger {
     height: 2px;
     top: 0;
     position: absolute;
     width: 214px;
     background: var(--third-color);
 }
-.about-us .mobile-about-us .p_text {
+.mobile-about-us .p_text {
     row-gap: 16px;
     display: grid;
 }
 
 
-.about-us .mobile-about-us img {
-    background: green;
+.mobile-about-us img {
+    background: var(--sec-color);
     width: 100%;
     aspect-ratio: 1/1.5;
+    width: clamp(250px, 100%, 500px);
+    margin-inline: auto;
 }
 
-.about-us .mobile-about-us .ourStory{
-    border: 1px solid black;
+.mobile-about-us .ourStory{
     display: grid;
     grid-gap: 4vh;
 }
 
-.about-us .mobile-about-us .ourStory .part .box {
-    background: yellow;
+.mobile-about-us .ourStory .part .box {
+    background: var(--sec-color);
     position: relative;
     top: -8%;
 }
-.about-us .mobile-about-us .ourStory .part .box .bee {
+.mobile-about-us .ourStory .part .box .bee {
     height: 11px;
     width: 110px;
     top: 0;
     position: absolute;
     background: var(--third-color);
 }
-.about-us .mobile-about-us .ourStory .part .box .stinger {
+.mobile-about-us .ourStory .part .box .stinger {
     height: 2px;
     top: 0;
     position: absolute;
@@ -127,25 +139,23 @@ header .hero_img {
 /* ------------achievements section --------- */
 #achievements {
     position: relative;
-    padding: 24px;
-    border: 1px red solid;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
+    grid-gap: 5vh;
 }
 
 #achievements .achievements {
     display: flex;
-    border: 1px green solid;
     flex-direction: column-reverse;
     row-gap: 4vh;
 }
 #achievements .achievements .achievements-text{
-    border: 1px solid black;
     display: grid;
     grid-gap: 4vh;
 }
 
-#achievements .achievements .achievements-text .part .box {
-    background: yellow;
+#achieviements .achievements .achievements-text .part  .box {
+    background: var(--sec-color);
     position: relative;
     top: -8%;
 }
@@ -164,9 +174,10 @@ header .hero_img {
     background: var(--third-color);
 }
 #achievements  .achievements .achievement_imagery{
-    background: green;
+    background: var(--sec-color);
     width: 100%;
-    aspect-ratio: 1;
+    width: clamp(250px, 100%, 500px);
+    margin-inline: auto;
 }
 
 
@@ -177,18 +188,15 @@ header .hero_img {
 
 #achievements .services {
     display: flex;
-    border: 1px green solid;
     flex-direction: column-reverse;
     row-gap: 4vh;
 }
 #achievements .services .services-text{
-    border: 1px solid black;
     display: grid;
     grid-gap: 4vh;
 }
 
 #achievements .services .services-text .part .box {
-    background: yellow;
     position: relative;
     top: -8%;
 }
@@ -207,9 +215,9 @@ header .hero_img {
     background: var(--third-color);
 }
 #achievements  .services .services_imagery{
-    background: green;
-    width: 100%;
-    aspect-ratio: 1;
+    background: var(--sec-color);
+    width: clamp(250px, 100%, 500px);
+    margin-inline: auto;
 }
 
 
@@ -217,19 +225,17 @@ header .hero_img {
 
 #clients {
     position: relative;
-    padding: 24px;
-    border: 1px red solid;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
 }
 
 #clients  .clients-text{
-    border: 1px solid black;
     display: grid;
     grid-gap: 4vh;
 }
 
 #clients .clients-text .part .box {
-    background: yellow;
+    background: var(--sec-color);
     position: relative;
     top: -8%;
 }
@@ -259,33 +265,37 @@ header .hero_img {
     grid-template-rows: 50% 50%;
     row-gap: 2vh;
 }
+#clients .group .client {
+    width: clamp(250px, 100%, 500px);
+    display: flex;
+    flex-direction:column;
+    margin-inline: auto;
+}
 #clients .group .client .crawfordfw {
     width: 100%;
     aspect-ratio: 1/0.7;
-    background: green;
+    background: var(--sec-color);
 }
 #clients .group .client h6{
     margin-top: -2px;
+    text-align: center;
 }
-
 
 /* ---------------------the team from here onwards------ */
 
 #team {
     position: relative;
-    padding: 24px;
-    border: 1px red solid;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
 }
 
 #team .team-text{
-    border: 1px solid black;
     display: grid;
     grid-gap: 4vh;
 }
 
 #team .team-text .part .box {
-    background: yellow;
+    background: var(--sec-color);
     position: relative;
     top: -8%;
 }
@@ -316,10 +326,10 @@ header .hero_img {
     justify-content: center;
 }
 #team .wrapper .member .imgMember{
-    height: 370px;
+    width: clamp(250px, 40vw, 500px) !important;
     margin-inline: auto;
-    aspect-ratio: 1/1.2;
-    background: green;
+    aspect-ratio: 1/1.3;
+    background: var(--sec-color);
     position: relative;
 }
 #team .wrapper h5{
@@ -338,19 +348,17 @@ header .hero_img {
 
 footer {
     position: relative;
-    padding: 24px;
-    border: 1px red solid;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
 }
 
 footer .contact-text{
-    border: 1px solid black;
     display: grid;
     grid-gap: 4vh;
 }
 
 footer .contact-text .part .box {
-    background: yellow;
+    background: var(--bg-color);
     position: relative;
     top: -8%;
 }
@@ -372,8 +380,9 @@ footer .contact-text .part .box .stinger {
 /* fooooooooooootere -------- botttom ---------*/
 
 footer .container{
-    display: grid;
+    display: flex;
     margin-top: 3vh;
+    flex-direction: column;
 }
 
 
@@ -381,8 +390,19 @@ footer .container .wrapper:first-child {
 margin-bottom: 4vh;
 }
 
-footer .container .wrapper span {
+footer .container .wrapper:first-child span {
     color: var(--primary-color);
+}
+footer .container .wrapper:last-child a {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container .wrapper i {
+    color: var(--primary-color);
+    font-size: var(--sd-h-fs);
+    margin-left: 30px;
 }
 footer .container .wrapper a {
     text-decoration: none;
@@ -395,14 +415,110 @@ footer .container .wrapper a {
 footer .map-section {
     width: 100%;
     margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer .map-section .map{
-    width: 100%;
+    width: clamp(250px , 100% , 1000px);
     aspect-ratio: 1/.8;
-    background: green;
+    background: var(--sec-color);
+    margin-inline: auto;
+    max-height: 400px;
 }
 footer .map-section span {
     color: var(--third-color);
     font-size: 1rem;
     font-family: var(--h-font);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------------hamburger and menus----- */
+
+
+nav .nav-links {
+    width: auto;
+    display: none;
+    list-style: none;
+}
+nav .nav-links a {
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-links a:last-child{
+    margin-left: 40px;
+}
+nav .nav-links a:last-child li {
+    transition: 0.3s;
+    color: var(--primary-color);
+    transform: scale(1.03);
+}
+
+nav .nav-links a:last-child li:hover {
+    transform: scale(1.06);
+    color: red;
+}
+
+
+
+
+
+
+
+
+nav i {
+    font-size: var(--h-fs);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+nav i:hover {
+    color:red;
+    transform: scale(0.6);
+}
+
+/* drop down menu---- */
+
+.drop_down_menu {
+    width: 100%;
+    height: 100lvh;
+    background: var(--bg-color);
+    display: grid;
+    grid-template-rows: 20% 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-bottom: 10vh;
+    transform: translate(-1000px); 
+    transition: transform 0.4s ease; 
+}
+.drop_down_menu .container{
+    position: relative;
+}
+.drop_down_menu .container i {
+    right: 8%;
+    top: 15%;
+    position: absolute;
+    padding: 20px;
+}
+
+.drop_down_menu  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.drop_down_menu  ul a:last-child li{
+    color: var(--primary-color);
+    scale: 1.08;
 }

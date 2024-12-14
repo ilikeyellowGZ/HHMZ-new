@@ -2,32 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styling/mobile.css">   
+    <link rel="icon" href="./media/logo.png">
     <link rel="stylesheet" href="/styling/style.css">
-    <link rel="stylesheet" href="/styling/mobile.css">
+    <script defer src="./styling/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HHMZ Dance School</title>
 </head>
 <body>
     <header>
 
         <nav> 
-            <div id="logo"></div>
+            <img id="logo" src="./media/logo.png" alt="">
 
-            <div class="hamburger"></div>
-           <!--  <ul class="nav-links">
-                <li>About us </li>
-                <li>About us</li>
-                <li>About us</li>
-                <li>About us</li>
-                <li>About us</li>
-                <li>About us</li>
-            </ul> -->
+            <ul class="nav-links">
+                <a href="#aboutUs"><li class="mobile-font-tr-heading">About us</li></a>
+                <a href="#team"><li class="mobile-font-tr-heading">OUr team</li></a>
+                <a href="#achievements"><li class="mobile-font-tr-heading">achievements</li></a>
+                <a href="#vision"><li class="mobile-font-tr-heading">our vision</li></a>
+                <a href="#clients"><li class="mobile-font-tr-heading">our clients</li></a>
+                <a href="#footer"><li class="mobile-font-tr-heading">Contacts</li></a>
+            </ul>
+
+            <div class="drop_down_menu">
+                <div class="container">
+                    <i class="fas fa-times "></i>
+                </div>
+                
+
+                <ul>
+                    <a href="#aboutUs1"><li class="mobile-font-tr-heading">About us</li></a>
+                    <a href="#team"><li class="mobile-font-tr-heading">OUr team</li></a>
+                    <a href="#achievements"><li class="mobile-font-tr-heading">achievements</li></a>
+                    <a href="#vision1"><li class="mobile-font-tr-heading">our vision</li></a>
+                    <a href="#clients"><li class="mobile-font-tr-heading">our clients</li></a>
+                    <a href="#footer"><li class="mobile-font-tr-heading">Contacts</li></a>
+                </ul>
+            </div>
+            <i class="fas fa-bars "></i>
+
+
+
         </nav>
         <div class="blendmode-block"></div>
         <div class="hero_img"></div>
     </header>
     <main>
-        <section class="about-us">
+        <section class="about-us" id="aboutUs1">
             <div class="mobile-about-us">
                 <div class="intro">
                     <div class="intro-heading part">
@@ -44,7 +66,7 @@
                     </div>
                 </div>
 
-                <img src="" alt="">
+                <img src="./media/intro.jpg" alt="Picture of HHMZ dance school dancing.">
 
                 <div class="ourStory">
                     <div class="intro-heading part">
@@ -56,6 +78,43 @@
                     </div>
                     <div class="p_text">
                         <p>Our founder Henry Nene was seen dancing when he used to work at a restaurant and the clients approcahed him and asked him to teacher their kids and that how HHMZ was born.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us-desktop" id="aboutUs">
+            <div class="mobile-about-us">
+                <img src="./media/intro.jpg" alt="Picture of HHMZ dance school dancing.">
+                <div class="about-us-info">
+                    <div class="intro">
+                        <div class="intro-heading part">
+                            <h3 class="mobile-font-h">Intro</h3>
+                            <div class="box">
+                                <div class="stinger"></div>
+                                <div class="bee"></div>
+                            </div>
+                        </div>
+                        <div class="p_text">
+                            <p>We are HHMZ Dance School, based in Fourways Dainfern Gauteng SOuth Africa</p>
+                            <p>We teach Hip, Amapiano, Afrobeat, urban Style and breakdancing. We teach beginner to advanced, competitive classes and non competitive classess.</p>
+                            <p>We have competed in Euro and America , and or soloist in America came 1st and in 2023 we took 3 groups to Croatia and they made top 10. We have won a lot of competitive and locally and done a few music videeos and work with Co-operate events.</p>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="ourStory">
+                        <div class="intro-heading part">
+                            <h3 class="mobile-font-h">Our story</h3>
+                            <div class="box">
+                                <div class="stinger"></div>
+                                <div class="bee"></div>
+                            </div>
+                        </div>
+                        <div class="p_text">
+                            <p>Our founder Henry Nene was seen dancing when he used to work at a restaurant and the clients approcahed him and asked him to teacher their kids and that how HHMZ was born.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +137,7 @@
                         <p>We have won a lot competitions locally and done music video and co-operate events.</p>
                     </div>
                 </div>
-                <img src="" alt="" class="achievement_imagery">
+                <img src="./media/services.png" alt="" class="achievement_imagery">
             </div>
             
 
@@ -99,7 +158,7 @@
                         <p>We offer professional performances for music videos, events and competitions .</p>
                     </div>
                 </div>
-                <img src="" alt="" class="services_imagery">
+                <img src="./media/achivements.jpg" alt="" class="services_imagery">
             </div>
 
         </section>
@@ -118,12 +177,12 @@
                     <div class="wrapper">
                         <div class="first-group_clients group">
                             <div class="crawford client">
-                                <img src="" alt="" class="crawfordfw">
+                                <img src="./media/crawford.png" alt="" class="crawfordfw">
                                 <h6 class="mobile-font-sd-heading">crawford fourways</h6>
                             </div>
                     
                             <div class="croydon client">
-                                <img src="" alt="" class="crawfordfw">
+                                <img src="./media/croydon.png" alt="" class="crawfordfw">
                                 <h6 class="mobile-font-sd-heading">croydon house</h6>
                             </div>
                     
@@ -131,19 +190,19 @@
                     
                         <div class="second-group_clients group">
                             <div class="crawford client">
-                                <img src="" alt="" class="crawfordfw">
+                                <img src="./media/prestige.png" alt="" class="crawfordfw">
                                 <h6 class="mobile-font-sd-heading">prestige college</h6>
                             </div>
                     
                             <div class="croydon client">
-                                <img src="" alt="" class="crawfordfw">
+                                <img src="./media/lonehill.png" alt="" class="crawfordfw">
                                 <h6 class="mobile-font-sd-heading">lonehill nursery</h6>
                             </div>
                         </div>
                     
                         <div class="third-group_clients group">
                             <div class="crawford client">
-                                <img src="" alt="" class="crawfordfw">
+                                <img src="./media/BIP.png" alt="" class="crawfordfw">
                                 <h6 class="mobile-font-sd-heading">british international prep</h6>
                             </div>
                     
@@ -155,7 +214,40 @@
 
         </section>
 
-        <section class="about-us">
+        <section class="about-us-desktop" id="vision">
+            <div class="mobile-about-us">
+                <img src="./media/vision.png" alt="An image showing the whole HHMZ family in Croatia">
+                <div class="about-us-info">
+                    <div class="intro">
+                        <div class="intro-heading part">
+                            <h3 class="mobile-font-h">our vision</h3>
+                            <div class="box">
+                                <div class="stinger"></div>
+                                <div class="bee"></div>
+                            </div>
+                        </div>
+                        <div class="p_text">
+                            <p>To grow and provide employment to our very own students and grow South African dancers/dance and take South Africa to the world, create different HHMZ brunches all around South Africa and the world.</p>
+                        </div>
+                    </div>
+
+                
+                    <div class="ourStory ">
+                        <div class="intro-heading part">
+                            <h3 class="mobile-font-h">why choose us</h3>
+                            <div class="box">
+                                <div class="stinger"></div>
+                                <div class="bee"></div>
+                            </div>
+                        </div>
+                        <div class="p_text">
+                            <p>We are dance family, that understand our clients want to compete and other dont and we are a passionate dance school values our clients and offer and amazing environment for our clients to come express themselves while feeling at home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us" id="vision1">
             <div class="mobile-about-us">
                 <div class="intro">
                     <div class="intro-heading part">
@@ -170,7 +262,7 @@
                     </div>
                 </div>
 
-                <img src="" alt="">
+                <img src="./media/vision.png" alt="An image showing the whole HHMZ family in Croatia">
 
                 <div class="ourStory">
                     <div class="intro-heading part">
@@ -181,11 +273,12 @@
                         </div>
                     </div>
                     <div class="p_text">
-                        <p>We are dance family, that understand our clients want to compete and other dont and we are a passionate dance school values our clients and offer and amazing environment for our clients to come express themselves while feeling at home.</p>
+                        <<p>We are dance family, that understand our clients want to compete and other dont and we are a passionate dance school values our clients and offer and amazing environment for our clients to come express themselves while feeling at home.</p>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <section id="team">
 
@@ -200,29 +293,29 @@
 
                 <div class="wrapper">
                     <div class="member">
-                        <img class="imgMember" src="" alt="">
+                        <img class="imgMember" src="./media/henry.png" alt="Picture of the Head choreographer at HHMZA dance school">
                         <h5 class="mobile-font-sd-heading">Henry nene</h5>
                         <h6>head choreographer</h6>
                     </div>
 
                     <div class="member">
-                        <img class="imgMember" src="" alt="">
+                        <img class="imgMember" src="./media/lerato.png" alt="Picture of the event planner of HHMZ dance school">
                         <h5 class="mobile-font-sd-heading">lerato hure</h5>
                         <h6>event planner</h6>
                     </div>
 
                     <div class="member">
-                        <img class="imgMember" src="" alt="">
+                        <img class="imgMember" src="./media/karabo.png" alt="STaff member">
                         <h5 class="mobile-font-sd-heading">karabo hure</h5>
                     </div>
 
                     <div class="member">
-                        <img class="imgMember" src="" alt="">
+                        <img class="imgMember" src="./media/drew.jpg" alt="Picture of Staff member">
                         <h5 class="mobile-font-sd-heading">drew griffiths</h5>
                     </div>
 
                     <div class="member">
-                        <img class="imgMember" src="" alt="">
+                        <img class="imgMember" src="./media/yoko.png" alt="Picture of staff member">
                         <h5 class="mobile-font-sd-heading">yoko dakile</h5>
                     </div>
                     
@@ -233,7 +326,7 @@
 
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="contact-text">
             <div class="contact-heading part">
                 <h3 class="mobile-font-h">contact details</h3>
@@ -247,21 +340,23 @@
                <div class="wrapper p_text">
                     <h6 class="mobile-font-sd-heading"> <span class="mobile-font-sd-heading">Henry</span> - 074 514 8914</h6>
                     <h6 class="mobile-font-sd-heading"> <span class="mobile-font-sd-heading">Lerato</span> - 073 160 3971</h6>
-                    <a href="#" class="mobile-font-sd-heading"> <span class="mobile-font-sd-heading">Whatsapp</span> - 074 514 8914</a>
-                    <a href="#" class="mobile-font-sd-heading"> <span class="mobile-font-sd-heading">henrymzizi</span>@gmail.com</a>
+                    <a href="https://wa.me/0745148914"  target="_blank" class="mobile-font-sd-heading"> <span class="mobile-font-sd-heading">Whatsapp</span> - 074 514 8914</a>
+                    <a href="mailto:hmzdancesa@gmail.com" class="mobile-font-sd-heading">
+                        <span class="mobile-font-sd-heading">henrymzizi</span>@gmail.com
+                    </a>
                 </div>
 
                 <div class="wrapper p_text">
-                    <h6 class="mobile-font-sd-heading">instagram <span></span></h6>
-                    <h6 class="mobile-font-sd-heading">facebook <span></span></h6>
-                    <h6 class="mobile-font-sd-heading">tiktok <span></span></h6>
-                    <h6 class="mobile-font-sd-heading">youtube <span></span></h6>
+                    <a href="https://www.instagram.com/hhmzdance/?hl=en" target="_blank" class="mobile-font-sd-heading">instagram <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/p/HMZ-dance-school-100064402433732/" target="_blank"  class="mobile-font-sd-heading">facebook <i class="fab fa-facebook"></i> </a>
+                    <a href="#"  class="mobile-font-sd-heading">tiktok <i class="fab fa-tiktok"></i></a>
+                    <a href="#"  class="mobile-font-sd-heading">youtube <i class="fab fa-youtube"></i> </a>
                 </div>
 
             </div>
 
             <div class="map-section">
-                <div class="map"></div>                
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3586.5369361079706!2d28.013576!3d-25.983223!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDU4JzU2LjkiUyAyOMKwMDAnNTMuOCJF!5e0!3m2!1sen!2sza!4v1734126489033!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
                 <span>locations</span>
             </div>
         </div>
