@@ -25,8 +25,24 @@
     --h-fs: 4rem;
 
     --sd-h-fs: 2.4rem;
-    --tr-h-fs:2.4rem
+    --tr-h-fs:2.4rem;
 
+
+    --main-heading-fw:900;
+    --section-heading-fw:700;
+
+    --section-fs:20px;
+    --section-ms:22px;
+
+    --header-fs: 10rem;
+    --headTwo-fs: 6rem;
+    --headThree-fs: 4.4rem;
+    --headFourth-fs: 2.3rem;
+    --p-fs: 1.5rem;
+    --ss-fs:1.1rem;
+
+    --main-padding:40px;
+    --ss-padding:20px;
 }
 html {
     scroll-behavior: smooth;
@@ -249,5 +265,50 @@ p{
     }
     nav .fa-bars {
         display: none !important; 
+    }
+
+    .dance_display {
+        background: var(--main-colour-100);
+        padding: 130px var(--ss-padding) 60px;
+        position: relative;
+        z-index: 10;
+        place-items: center;
+    }
+
+    .dance_display h2 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px;
+    }
+    .dance_display .danceInstructors {
+        row-gap: 6vh;
+        grid-template-columns: 50% 50%;
+    }
+    .dance_display .danceInstructorbox {
+        width: clamp(400px, 80%, 550px);
+    }
+    .dance_display .danceInstructorbox .InstructorImg {
+        object-fit: cover;
+        object-position: center left;
+        position: absolute;
+        left: 50%;
+        top: 8%;
+        transform: translateX(-50%);
+        opacity: .6;
+    }
+    .dance_display .danceInstructorbox .InstructorImgface {
+        margin-top: 3vh;
+    }
+    .dance_display .danceInstructorbox .infoaboutInstructor {
+        height: 17%;
+    }
+    .dance_display .danceInstructorbox p {
+        font-size: var(--p-fs);
+        text-align: center;
+    }
+    .dance_display .danceInstructorbox p {
+        font-size: var(--p-fs);
+        text-align: center;
     }
 }

@@ -286,7 +286,7 @@ header .hero_img {
 
 /* ---------------------the team from here onwards------ */
 
-#team {
+/* #team {
     position: relative;
     padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
     width: 100vw;
@@ -316,9 +316,9 @@ header .hero_img {
     width: 214px;
     background: var(--third-color);
 }
-
+ */
 /* bottom part of the teams section--- */
-#team .wrapper {
+/* #team .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -345,7 +345,7 @@ header .hero_img {
      text-align: center;
      font-family: var(--h-font);
     margin-top: -4px;
-}/* -----------------------------------GALLERY--------------- */
+} *//* -----------------------------------GALLERY--------------- */
 
 #gallery {
     position: relative;
@@ -574,4 +574,110 @@ nav i:hover {
 .drop_down_menu  ul a:last-child li{
     color: var(--primary-color);
     scale: 1.08;
+}
+
+
+.dance_display {
+    position: relative;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
+    width: 100vw;
+}
+.dance_display .danceInstructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vh 4vw
+}
+.dance_display .danceInstructorbox {
+    width: clamp(250px, 40vw, 600px) !important;
+    border-radius: 4px;
+    position: relative;
+    margin: 2vh 1vw;
+    padding: 15px;
+    place-content: end;
+}
+.dance_display .danceInstructorbox .InstructorImg {
+    object-fit: cover;
+    object-position: center left;
+    position: absolute;
+    left: 50%;
+    width: 110% ;
+    top: -6%;
+    transform: translateX(-50%);
+    opacity: .6;
+}
+.dance_display .danceInstructorbox .InstructorImgface {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 4px;
+}
+.dance_display .danceInstructorbox .infoaboutInstructor{
+    position: relative;
+    margin-top: 5px;
+    place-items: center;
+}
+.dance_display .danceInstructorbox h4 {
+    text-align: center;
+    font-size: var(--headFourth-fs);
+    font-weight: var(--section-heading-fw);
+    margin-block: calc(var(--ss-padding) * 0.5);
+}
+.dance_display .danceInstructorbox img {
+    position: relative;
+    width: 100%;
+}
+.dance_display .danceInstructorbox strong {
+    font-size: var(--p-fs);
+}
+.dance_display .danceInstructorbox p {
+    font-size: var(--p-fs);
+    text-align: center;
+}
+.dance_display h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px; 
+}
+.dance_display h2 div {
+    color: var(--main-o-300);
+    font-size: var(--headThree-fs);
+    text-transform: uppercase;
+    font-weight: var(--main-heading-fw);
+}
+.dance_display .danceInstructorbox h6 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+     text-align: center;
+     font-family: var(--h-font);
+    margin-top: -4px;
+}
+
+/* ---------------heading for team----- */
+
+.dance_display .team-text{
+    display: grid;
+    grid-gap: 4vh;
+}
+
+.dance_display .team-text .part .box {
+    background: var(--sec-color);
+    position: relative;
+    top: -8%;
+}
+.dance_display .team-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+.dance_display .team-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
 }

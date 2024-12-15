@@ -9,4 +9,4 @@ i have complete the wesbite i just need to add some speling checks but just want
 
 added tge gallery section and adjust some of the spelling, added the new pcitures and adjust the spacing inbetween the services and achievements and fixed the bar 
 
-
+i should be done now i changed the team sections and i added  the gallery sections and the spelling
