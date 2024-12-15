@@ -630,8 +630,7 @@ nav i:hover {
 .dance_display .danceInstructorbox strong {
     font-size: var(--p-fs);
 }
-.dance_display .danceInstructorbox p {
-    font-size: var(--p-fs);
+.dance_display .danceInstructorbox .infoaboutInstructor {
     text-align: center;
 }
 .dance_display h2 {
