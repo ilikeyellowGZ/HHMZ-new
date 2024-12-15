@@ -7,4 +7,6 @@ going to need to add icons and name the website should be done in the next 24hrs
 
 i have complete the wesbite i just need to add some speling checks but just want to see if he likes it.
 
+added tge gallery section and adjust some of the spelling, added the new pcitures and adjust the spacing inbetween the services and achievements and fixed the bar 
+
 

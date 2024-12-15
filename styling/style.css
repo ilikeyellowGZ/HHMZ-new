@@ -28,11 +28,13 @@
     --tr-h-fs:2.4rem
 
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     width: 100%;
     background: var(--bg-color);
     overflow-x: hidden;
-    transition-behavior: smooth;
 }
 a {
     text-decoration: none;

@@ -149,24 +149,25 @@ header .hero_img {
     flex-direction: column-reverse;
     row-gap: 4vh;
 }
-#achievements .achievements .achievements-text{
+#achievements .achievements-text{
     display: grid;
     grid-gap: 4vh;
+    position: relative;
 }
 
-#achieviements .achievements .achievements-text .part  .box {
+#achievements .achievements-text .part  .box {
     background: var(--sec-color);
     position: relative;
     top: -8%;
 }
-#achievements  .achievements .achievements-text .part .box .bee {
+#achievements .achievements-text .part .box .bee {
     height: 11px;
     width: 110px;
     top: 0;
     position: absolute;
     background: var(--third-color);
 }
-#achievements  .achievements  .achievements-text .part .box .stinger {
+#achievements  .achievements-text .part .box .stinger {
     height: 2px;
     top: 0;
     position: absolute;
@@ -190,31 +191,33 @@ header .hero_img {
     display: flex;
     flex-direction: column-reverse;
     row-gap: 4vh;
+    margin-top: var(--section-top-padding);
 }
 #achievements .services .services-text{
     display: grid;
     grid-gap: 4vh;
+    position: relative;
 }
 
-#achievements .services .services-text .part .box {
+#achievements .services-text .part .box {
     position: relative;
     top: -8%;
 }
-#achievements  .services .services-text .part .box .bee {
+#achievements .services .services-text .part .box .bee {
     height: 11px;
     width: 110px;
     top: 0;
     position: absolute;
     background: var(--third-color);
 }
-#achievements  .services  .services-text .part .box .stinger {
+#achievements .services  .services-text .part .box .stinger {
     height: 2px;
     top: 0;
     position: absolute;
     width: 214px;
     background: var(--third-color);
 }
-#achievements  .services .services_imagery{
+#achievements .services_imagery{
     background: var(--sec-color);
     width: clamp(250px, 100%, 500px);
     margin-inline: auto;
@@ -342,6 +345,56 @@ header .hero_img {
      text-align: center;
      font-family: var(--h-font);
     margin-top: -4px;
+}/* -----------------------------------GALLERY--------------- */
+
+#gallery {
+    position: relative;
+    padding: var(--section-top-padding) var(--body-padding) var(--body-padding);
+    width: 100vw;
+}
+#gallery .gallery-text{
+    display: grid;
+    grid-gap: 4vh;
+    position: relative;
+}
+
+#gallery .gallery-text .part .box {
+    background: var(--bg-color);
+    position: relative;
+    top: -8%;
+}
+#gallery .gallery-text .part .box .bee {
+    height: 11px;
+    width: 110px;
+    top: 0;
+    position: absolute;
+    background: var(--third-color);
+}
+#gallery .gallery-text .part .box .stinger {
+    height: 2px;
+    top: 0;
+    position: absolute;
+    width: 214px;
+    background: var(--third-color);
+}
+
+
+
+#gallery  .container{
+    display: flex;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 24px 3vw;
+}
+
+#gallery  .container .gal-img {
+    width: clamp(250px, 40vw, 420px) ;
+    background: green;
+    aspect-ratio: 1/0.7;
+    object-fit: cover;
 }
 
 /* fooooooooooootere */
