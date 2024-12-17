@@ -12,3 +12,5 @@ added tge gallery section and adjust some of the spelling, added the new pciture
 i should be done now i changed the team sections and i added  the gallery sections and the spelling
 
 just had to fix the text alignment on the instructors line 320 to 370 but its now alll fixed 
+
+i just added teacher under all the instructors of the school
