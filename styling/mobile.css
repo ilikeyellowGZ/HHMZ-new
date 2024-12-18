@@ -391,8 +391,8 @@ header .hero_img {
 }
 
 #gallery  .container .gal-img {
-    width: clamp(250px, 40vw, 420px) ;
-    background: green;
+    width: clamp(250px, 90vw, 420px) ;
+    background: var(--third-color);
     aspect-ratio: 1/0.7;
     object-fit: cover;
 }
@@ -557,8 +557,8 @@ nav i:hover {
     position: relative;
 }
 .drop_down_menu .container i {
-    right: 8%;
-    top: 15%;
+    right: 3%;
+    top: 10%;
     position: absolute;
     padding: 20px;
 }

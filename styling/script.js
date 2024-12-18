@@ -13,3 +13,14 @@ close.addEventListener('click', () => {
     dropDownContent.style.transform = 'translate(-1000px)'; 
     open.classList.remove("yes");
 });
+
+
+const navLinks  = document.querySelectorAll(".drop_down_menu ul a")
+
+document.querySelectorAll(".drop_down_menu ul a").forEach(child => {
+    child.addEventListener('click', () => {
+        open.style.display = "block";
+        dropDownContent.style.transform = 'translate(-1000px)'; 
+        open.classList.remove("yes");
+    });
+})
