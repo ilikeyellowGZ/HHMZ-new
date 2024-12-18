@@ -16,3 +16,5 @@ just had to fix the text alignment on the instructors line 320 to 370 but its no
 i just added teacher under all the instructors of the school.
 
 i added the pictures he wanted, changed the role of yoko added a feature to if the mobile nav elements are clicked the mobile nav closes, i change some imgs so they have a higher res
+
+i added a whatapp button for quick and easy contact 
