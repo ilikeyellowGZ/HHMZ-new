@@ -706,3 +706,7 @@ nav i:hover {
     color: var(--bg-color);
     font-size: 0.1rem;
 }
+ h1 {
+    color: var(--bg-color);
+    font-size: 0.1rem;
+}

@@ -24,3 +24,5 @@ i just changed the acievements heading it was incorrect ND JUST ADDED The 2024 a
 i just added some SEO optimization and did some image optimization and added links to help and also removed yoko so hopefully im done rn
 
 just change the mobile van link transition
+
+i just added things from a SEO optimizer but wants me to do things out of my scope like remove the double section, i cant because they are for different vp
