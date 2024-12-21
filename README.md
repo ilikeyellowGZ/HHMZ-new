@@ -22,3 +22,5 @@ i added a whatapp button for quick and easy contact
 i just changed the acievements heading it was incorrect ND JUST ADDED The 2024 acheievnemts 
 
 i just added some SEO optimization and did some image optimization and added links to help and also removed yoko so hopefully im done rn
+
+just change the mobile van link transition
