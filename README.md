@@ -11,7 +11,7 @@ added tge gallery section and adjust some of the spelling, added the new pciture
 
 i should be done now i changed the team sections and i added  the gallery sections and the spelling
 
-just had to fix the text alignment on the instructors line 320 to 370 but its now alll fixed 
+just had to fix the text alignment on the instructors line 320 to 370 but its now all fixed 
 
 i just added teacher under all the instructors of the school.
 
@@ -20,3 +20,5 @@ i added the pictures he wanted, changed the role of yoko added a feature to if t
 i added a whatapp button for quick and easy contact 
 
 i just changed the acievements heading it was incorrect ND JUST ADDED The 2024 acheievnemts 
+
+i just added some SEO optimization and did some image optimization and added links to help and also removed yoko so hopefully im done rn

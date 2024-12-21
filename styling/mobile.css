@@ -104,7 +104,7 @@ header .hero_img {
 .mobile-about-us img {
     background: var(--sec-color);
     width: 100%;
-    aspect-ratio: 1/1.5;
+    aspect-ratio: 1/1.45;
     width: clamp(250px, 100%, 500px);
     margin-inline: auto;
 }
@@ -700,4 +700,9 @@ nav i:hover {
     font-size: 6rem;
     color: var(--primary-color);
     /* color: #25D366; */
+}
+
+.SEO-links a {
+    color: var(--bg-color);
+    font-size: 0.1rem;
 }
