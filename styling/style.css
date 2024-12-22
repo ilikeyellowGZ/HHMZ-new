@@ -162,11 +162,21 @@ p{
         flex-direction: row-reverse;
         column-gap: 4vw;
     }
+    #achievements .services .services-text{
+        grid-gap: 0 ;
+    }
+    #achievements .services-text .part .box {
+        position: relative;
+        top: -4%;
+    }
     #clients .group {
         grid-template-columns: 50% 50%;
     }
     #team .wrapper {
         gap: 4vh 6vw;
+    }
+    .dance_display .danceInstructorbox h6 {
+        font-size: 1.3rem;
     }
     footer .container {
         display: flex;
@@ -232,6 +242,13 @@ p{
         flex-direction: row-reverse;
         column-gap: 4vw;
     }
+    #achievements .services-text .part .box {
+        position: relative;
+        top: -4%;
+    }
+    #achievements .services .services-text{
+        grid-gap: 0 ;
+    }
     .mobile-about-us .about-us-info {
         display: flex;
         flex-direction: column;
@@ -242,6 +259,9 @@ p{
     }
     #team .wrapper {
         gap: 4vh 6vw;
+    }
+    .dance_display .danceInstructorbox h6 {
+        font-size: 1.3rem;
     }
     footer .container {
         display: flex;

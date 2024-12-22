@@ -26,3 +26,14 @@ i just added some SEO optimization and did some image optimization and added lin
 just change the mobile van link transition
 
 i just added things from a SEO optimizer but wants me to do things out of my scope like remove the double section, i cant because they are for different vp
+
+1. add a new client 
+2. add a description under the teachers
+3. add class times 
+4. add free trial classes
+5. add the emailed picture
+6. check the pictures 
+7. add the country for WhatsApp 
+8. send the link for google business
+
+bruh the images work, but doest work for the client i dont know how that even works and the link i just have to send
